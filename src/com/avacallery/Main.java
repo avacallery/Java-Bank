@@ -10,15 +10,11 @@ public class Main {
         // create instance of BankAccount
         BankAccount myAccount = new BankAccount(1000, 1234567, "Ava", "Main Account");
         CheckingAccount myChecking = new CheckingAccount(2000, 123890, "Ava");
-        SavingsAccount mySavings = new SavingsAccount(900, 6666, "Ava");
-        System.out.println(myAccount.accountDetails());
-        myAccount.deposit(50);
-        System.out.println(myAccount.accountDetails());
-        myAccount.withdraw(100);
-        System.out.println(myAccount.accountDetails());
+        SavingsAccount mySavings = new SavingsAccount(900, 6666, "Ava", 5);
         System.out.println(myChecking.accountDetails());
         System.out.println(mySavings.accountDetails());
-
+        mySavings.applyInterest();
+        System.out.println(mySavings.accountDetails());
     }
 
 }

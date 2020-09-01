@@ -10,15 +10,15 @@ public class SavingsAccount extends BankAccount {
 
     // because our parent account has a constructor, we need a constructor here
     // and we must use super to bring the attributes in
-    public SavingsAccount(int balance, int accountNum, String owner){
+    public SavingsAccount(int balance, int accountNum, String owner, int interest) {
         super(balance, accountNum, owner, "Savings");
         this.withdrawCount = 5;
         this.interest = interest;
     }
 
     public void applyInterest() {
-
+        // in order to get a decimal back
+        balance += balance * ((float) interest / 100.0);
     }
-
 
 }
