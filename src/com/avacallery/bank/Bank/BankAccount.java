@@ -1,4 +1,4 @@
-package com.avacallery.bank;
+package com.avacallery.bank.Bank;
 
 public class BankAccount {
     protected int balance;
@@ -26,5 +26,9 @@ public class BankAccount {
 
     public String accountDetails() {
         return this.type + ": Owner: " + this.owner + "\tAccount Number: " + this.accountNum + "\tBalance: " + this.balance;
+    }
+
+    public int getBalance() {
+        return balance;
     }
 }

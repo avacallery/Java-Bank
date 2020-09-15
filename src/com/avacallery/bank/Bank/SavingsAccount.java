@@ -1,4 +1,6 @@
-package com.avacallery.bank;
+package com.avacallery.bank.Bank;
+
+import com.avacallery.bank.Bank.BankAccount;
 
 public class SavingsAccount extends BankAccount {
     static int withdrawLimit = 5;
