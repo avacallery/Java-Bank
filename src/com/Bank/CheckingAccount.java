@@ -1,6 +1,4 @@
-package com.avacallery.bank.Bank;
-
-import com.avacallery.bank.Bank.BankAccount;
+package com.Bank;
 
 public class CheckingAccount extends BankAccount {
     public CheckingAccount(int balance, int accountNum, String owner) {

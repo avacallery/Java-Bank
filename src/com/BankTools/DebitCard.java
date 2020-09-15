@@ -1,7 +1,7 @@
-package com.avacallery.bank.BankTools;
+package com.BankTools;
 
-import com.avacallery.bank.Bank.CheckingAccount;
-import com.avacallery.bank.Bank.SavingsAccount;
+import com.Bank.CheckingAccount;
+import com.Bank.SavingsAccount;
 
 import java.util.Calendar;
 import java.util.List;

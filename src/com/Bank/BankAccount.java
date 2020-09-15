@@ -1,4 +1,4 @@
-package com.avacallery.bank.Bank;
+package com.Bank;
 
 public class BankAccount {
     protected int balance;
@@ -21,7 +21,6 @@ public class BankAccount {
         if (this.balance >= amount) {
             this.balance += amount;
         }
-
     }
 
     public String accountDetails() {

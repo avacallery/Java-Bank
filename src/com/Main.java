@@ -1,8 +1,8 @@
-package com.avacallery.bank;
+package com;
 
-import com.avacallery.bank.Bank.BankAccount;
-import com.avacallery.bank.Bank.CheckingAccount;
-import com.avacallery.bank.Bank.SavingsAccount;
+import com.Bank.BankAccount;
+import com.Bank.CheckingAccount;
+import com.Bank.SavingsAccount;
 
 public class Main {
     public Main() {
