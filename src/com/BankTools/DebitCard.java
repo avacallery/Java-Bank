@@ -1,7 +1,7 @@
 package com.BankTools;
 
-import com.Bank.CheckingAccount;
-import com.Bank.SavingsAccount;
+import com.Accounts.CheckingAccount;
+import com.Accounts.SavingsAccount;
 
 import java.util.Calendar;
 import java.util.List;
@@ -11,6 +11,7 @@ public class DebitCard {
     private String pin;
     private Calendar expDate;
     private CheckingAccount primary;
+    // "has a" relationship, not "is a" relationship
     private List<SavingsAccount> atmAccounts;
 
     public DebitCard(String cardNum, String pin, CheckingAccount primary, List atmAccounts) {

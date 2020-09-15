@@ -1,4 +1,4 @@
-package com.Bank;
+package com.Accounts;
 
 public class SavingsAccount extends BankAccount {
     static int withdrawLimit = 5;
